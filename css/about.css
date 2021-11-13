@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about-section {
+    padding: 98px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+	margin:0;
+}
+.about-content {
+    margin-top: 7rem;
+    flex-basis: 40%;
+}
+.about-title {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    margin: 90px 0 0;
+}
+.about-info {
+    color: var(--text-color);
+    font-size: 1.5rem;
+	margin: 30px 0;
+}
+.footer
+{
+	width: 1920px;
+	height: 450px;
+	background-color: #1C2A3D;
+	margin: 120px auto 0;
+	display: flex;
+}
+.imgfooter
+{
+	width:472px;
+	height: 293px;
+	margin: 100px auto 0 ;
+}
+.about-brand {
+    flex-basis: 50%;
+	margin: 0;
+}
+.about-logo {
+    width: 368px;
+    margin: 0 auto;
+}
+.about-brand h1{
+    font-size: 9rem;
+    text-align: center;
+}

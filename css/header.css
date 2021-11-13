@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menu-item {
+    display: inline-block;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5px 10px; 
+    min-width: 163px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+.header-menu .active {
+	border-bottom: 2px solid var(--primary-color);
+}
+ul {
+    padding: 0;
+	list-style-type: none;}
+.header-menu {
+    display: flex;
+    align-items: center;
+	margin-right: 11rem;}
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img {
+    display: block;
+	width: 100%;}
+html {
+	box-sizing: border-box;}
+.header-logo {
+    width: 102px;
+}
+.header-container {
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.header {
+  
+    top: 0;
+    left: 0;
+	right: 0;
+}
+
+.header-auth {
+	position: relative;}
+.header-icon-list a {
+	display: block;}
+
+.header-icon-list {
+    display: flex;
+	align-items: center;}
+.icon-item:first-child 
+{
+	margin-right: 40px;}
